@@ -2,7 +2,10 @@
 
 ## Introduction
 
-Welcome to the Manajemen Buku application! This simple web application allows you to manage book data with user authentication.
+Selamat datang di Website Manajemen Buku!
+Login : 
+username : admin
+password : admin
 
 ## Getting Started
 
@@ -17,4 +20,4 @@ Welcome to the Manajemen Buku application! This simple web application allows yo
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/manajemen-buku.git
+   git clone https://github.com/yondika121140161/RB_121140161_UASPemweb.git
