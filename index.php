@@ -119,6 +119,5 @@ require 'function.php';
     </div>
 
 </body>
-<script src="script.js"></script>
 
 </html>
