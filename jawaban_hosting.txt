@@ -1,0 +1,33 @@
+Bagian bonus ini akan memberikan bobot tambahan 20% jika Anda berhasil meng-host aplikasi web yang Anda buat. Jawablah pertanyaan-pertanyaan berikut:
+
+(5%) Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?
+Langkah-langkah untuk meng-host aplikasi web dengan 000webhost:
+Daftar akun 000webhost
+Pilih paket hosting yang sesuai
+Konfirmasi email aktivasi akun
+Masuk ke cPanel
+Unggah file aplikasi web
+Konfigurasi database
+Buat domain
+Tambahkan domain ke akun hosting
+
+(5%) Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda.
+Penyedia hosting web yang paling cocok untuk aplikasi web saya adalah 000webhost. Alasan saya memilih 000webhost adalah karena:
+Gratis. 000webhost menawarkan layanan hosting gratis yang cukup memadai untuk aplikasi web sederhana.
+Mudah digunakan. 000webhost menyediakan antarmuka cPanel yang mudah digunakan, bahkan untuk pemula.
+Uptime tinggi. 000webhost memiliki uptime rata-rata 99%, sehingga aplikasi web Anda akan selalu tersedia untuk diakses
+
+(5%) Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
+Untuk memastikan keamanan aplikasi web yang saya host, saya menerapkan langkah-langkah berikut:
+Menggunakan protokol HTTPS. HTTPS adalah protokol keamanan yang melindungi data yang dikirim antara browser dan server.
+Melakukan backup data secara berkala. Backup data dapat membantu Anda memulihkan data jika terjadi bencana.
+
+(5%) Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
+Konfigurasi server yang saya terapkan untuk mendukung aplikasi web saya adalah sebagai berikut:
+Sistem operasi: Linux
+Web server: Apache
+Database: MySQL
+Pemrograman bahasa: PHP
+
+Selain konfigurasi di atas, saya juga menerapkan beberapa konfigurasi tambahan untuk meningkatkan keamanan dan kinerja aplikasi web saya, seperti:
+Mengatur batas file upload. Batas file upload dapat membantu mencegah serangan upload file berbahaya.
