@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+* {
+  font-family: "Play", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  margin: 0 8%;
+}
+
+nav {
+  background-color: #f1f1f1;
+}
+
+.sidebar-content {
+  margin: 0 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.menu-content {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+}
+
+.menu-items p {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  color: #222222;
+}
+
+.menu-items .item a,
+li {
+  text-decoration: none;
+  list-style: none;
+  padding: 8px 12px;
+}
+
+.btn-keluar a {
+  color: white;
+  background-color: crimson;
+}
+
+.container {
+  width: 100%;
+}
+
+form {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0;
+}
+
+form label {
+  width: 100%;
+}
+
+form input {
+  padding: 12px;
+  margin: 8px 0;
+}
+
+.button-add {
+  padding: 12px 20px;
+  border: none;
+  background-color: rgb(29, 102, 247);
+  color: white;
+  margin: 12px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+.table-head {
+  font-weight: 700;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: #eee;
+}
+
+.table-body th {
+  color: #222222;
+  font-weight: 400;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 3px solid #ffffff;
+  text-align: left;
+  font-size: 12px;
+  max-width: 40px;
+}
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  table {
+    width: 100%;
+  }
+
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    /* Label the data */
+    content: attr(data-column);
+
+    color: #000;
+  }
+}
+
+th a {
+  text-decoration: none;
+  padding: 4px 8px;
+  color: white;
+}
+
+.read {
+  background-color: rgb(29, 102, 247);
+}
+
+.edit {
+  background-color: green;
+}
+
+.delete {
+  background-color: crimson;
+}
